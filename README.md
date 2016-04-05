@@ -30,7 +30,7 @@ dig example.local @$DOCKER_IP
 
 ### Docker IP
 
-When on Mac OS and using boot2docker, this will come in handy:
+When using docker-machine, this will come in handy:
 ```
-export DOCKER_IP=$(boot2docker ip)
+export DOCKER_IP=$(docker-machine ip)
 ```
